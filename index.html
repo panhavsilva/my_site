@@ -4,12 +4,20 @@
 <head>
   <meta charset="UTF-8">
   <title>Pamela Vieira</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/skills.css">
   <script src="https://kit.fontawesome.com/bcd7f656b1.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <section>
+  <header>
+    <a class="header-item" href="#about">Sobre mim</a>
+    <a class="header-item" href="#skills">Habilidades</a>
+    <a class="header-item" href="#courses">Cursos</a>
+    <a class="home" href="#about"><i class="fas fa-home"></i></a>
+  </header>
+
+  <section id="about">
     <div class="container">
       <div class="title">Pâmela Vieira</div>
       <p>
@@ -20,24 +28,33 @@
         de tipos.
       </p>
 
-      <img class="my-photo" src="me.jpg" alt="foto de Pâmela">
+      <img class="my-photo" src="./images/me.jpg" alt="foto de Pâmela">
 
       <div class="contacts">
+        <h2>Contatos:</h2>
         <a target="_blank" href="https://www.linkedin.com/in/pamelavsilva/">
           <i class="fab fa-linkedin"></i>
         </a>
         <a target="_blank" href="https://github.com/panhavsilva">
           <i class="fab fa-github"></i>
         </a>
+        <a href="mailto:panhavsilva@gmail.com"><i class="fas fa-envelope-square"></i></a>
       </div>
-      <hr>
 
-      <div class="skills">
-        <h2>Habilidades</h2>
+
+  </section>
+
+  <section id="skills">
+    <div class="container2">
+
+      <div class="subtitle">Habilidades</div>
+
+      <div class="wrapper">
+
         <div class="skill-item">
           <span class="skill-title">HTML</span>
           <div class="progress-bar">
-            <div class="progress progress-html">
+            <div class="progress progress-70">
               70%
             </div>
           </div>
@@ -46,7 +63,7 @@
         <div class="skill-item">
           <span class="skill-title">CSS</span>
           <div class="progress-bar">
-            <div class="progress progress-css">
+            <div class="progress progress-50">
               50%
             </div>
           </div>
@@ -55,9 +72,91 @@
         <div class="skill-item">
           <span class="skill-title">JavaScript</span>
           <div class="progress-bar">
-            <div class="progress progress-js">
+            <div class="progress progress-30">
               30%
             </div>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <span class="skill-title">Github</span>
+          <div class="progress-bar">
+            <div class="progress progress-20">
+              20%
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    </div>
+  </section>
+
+  <section id="courses">
+    <div class="container2">
+      <div class="subtitle">Cursos</div>
+
+      <div class="curses">
+        <div class="wrapper">
+          <div class="course-content">
+            <h3><i class="fab fa-html5"></i> HTML5</h3>
+            <p>
+              Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos,
+              e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma
+              bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.
+              Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração
+              eletrônica, permanecendo essencialmente inalterado.
+            </p>
+            <p><i class="fas fa-star"></i> <a href="https://github.com/panhavsilva">Repositório do curso</a></p>
+            <p><i class="fas fa-star"></i> <a
+                href="https://www.udemy.com/?utm_source=adwords-brand&utm_medium=udemyads&utm_campaign=NEW-AW-PROS-Branded-Search-PT-BRA_._ci__._sl_BRA_._vi__._sd_All_._la_PT_._&tabei=7&utm_term=_._ag_53604040238_._ad_254061738913_._de_c_._dm__._pl__._ti_kwd-310556426868_._li_1001706_._pd__._&gclid=CjwKCAjwlZf3BRABEiwA8Q0qq_TJqEU1ea9ACOBg6Vle5SqWkXm40nH1knd1nW8Rd_CqHc7_eePf3hoCe3kQAvD_BwE">Página
+                do curso</a> </p>
+          </div>
+
+          <div class="course-content">
+            <h3><i class="fab fa-css3-alt"></i> CSS3</h3>
+            <p>
+              Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos,
+              e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma
+              bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.
+              Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração
+              eletrônica, permanecendo essencialmente inalterado.
+            </p>
+            <p><i class="fas fa-star"></i> <a href="https://github.com/panhavsilva">Repositório do curso</a></p>
+            <p><i class="fas fa-star"></i> <a
+                href="https://www.udemy.com/?utm_source=adwords-brand&utm_medium=udemyads&utm_campaign=NEW-AW-PROS-Branded-Search-PT-BRA_._ci__._sl_BRA_._vi__._sd_All_._la_PT_._&tabei=7&utm_term=_._ag_53604040238_._ad_254061738913_._de_c_._dm__._pl__._ti_kwd-310556426868_._li_1001706_._pd__._&gclid=CjwKCAjwlZf3BRABEiwA8Q0qq_TJqEU1ea9ACOBg6Vle5SqWkXm40nH1knd1nW8Rd_CqHc7_eePf3hoCe3kQAvD_BwE">Página
+                do curso</a> </p>
+          </div>
+
+          <div class="course-content">
+            <h3><i class="fab fa-js"></i> ECMA 6</h3>
+            <p>
+              Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos,
+              e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma
+              bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.
+              Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração
+              eletrônica, permanecendo essencialmente inalterado.
+            </p>
+            <p><i class="fas fa-star"></i> <a href="https://github.com/panhavsilva">Repositório do curso</a></p>
+            <p><i class="fas fa-star"></i> <a
+                href="https://www.udemy.com/?utm_source=adwords-brand&utm_medium=udemyads&utm_campaign=NEW-AW-PROS-Branded-Search-PT-BRA_._ci__._sl_BRA_._vi__._sd_All_._la_PT_._&tabei=7&utm_term=_._ag_53604040238_._ad_254061738913_._de_c_._dm__._pl__._ti_kwd-310556426868_._li_1001706_._pd__._&gclid=CjwKCAjwlZf3BRABEiwA8Q0qq_TJqEU1ea9ACOBg6Vle5SqWkXm40nH1knd1nW8Rd_CqHc7_eePf3hoCe3kQAvD_BwE">Página
+                do curso</a> </p>
+          </div>
+
+          <div class="course-content">
+            <h3><i class="fab fa-github-square"></i> Github básico</h3>
+            <p>
+              Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos,
+              e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma
+              bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.
+              Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração
+              eletrônica, permanecendo essencialmente inalterado.
+            </p>
+            <p><i class="fas fa-star"></i> <a href="https://github.com/panhavsilva">Repositório do curso</a></p>
+            <p><i class="fas fa-star"></i> <a
+                href="https://www.udemy.com/?utm_source=adwords-brand&utm_medium=udemyads&utm_campaign=NEW-AW-PROS-Branded-Search-PT-BRA_._ci__._sl_BRA_._vi__._sd_All_._la_PT_._&tabei=7&utm_term=_._ag_53604040238_._ad_254061738913_._de_c_._dm__._pl__._ti_kwd-310556426868_._li_1001706_._pd__._&gclid=CjwKCAjwlZf3BRABEiwA8Q0qq_TJqEU1ea9ACOBg6Vle5SqWkXm40nH1knd1nW8Rd_CqHc7_eePf3hoCe3kQAvD_BwE">Página
+                do curso</a> </p>
           </div>
         </div>
       </div>

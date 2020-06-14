@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root{
+  --primary-color: #fad2fffa;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  color:#fff;
+  font-size: 18px;
+  margin: 0;
+}
+
+section{
+  background-color: #00000075;
+  height: 100%;
+  margin: 0;
+}
+
+header{
+  background-color: #0b123194;
+  height: 55px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+}
+
+.header-item{
+  font-size: 20px;
+  font-weight: 500;
+  margin: 20px;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.header-item:hover, 
+.home:hover{
+  color: #fff;
+  font-size: 22px;
+}
+
+.home{
+  font-size: 20px;
+  color: var(--primary-color);
+  position: absolute;
+  right: 15px;
+  margin: 20px;
+}
+
+#about{
+  background: url('../images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.container{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding-top: 6%;
+}
+
+.title{
+  color: var(--primary-color);
+  font-size: 35px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.subtitle{
+  font-size: 40px;
+  padding: 8%;
+  text-align: center;
+  color: #fff;
+}
+
+.my-photo{
+  border-radius: 50%;
+  width: 30%;
+  margin: auto;
+  border: 4px solid var(--primary-color);
+}
+
+.contacts{
+  margin-top: 10px;
+}
+
+.contacts a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.contacts a:hover{
+  opacity: 0.3;
+}
+
+#skills{
+  background-image: linear-gradient(to bottom, #1d0946, #4c1c6e, #812f96, #bb42bb, #fa54de);
+  height: 100vh;
+}
+
+.container2{
+  width: 80%;
+  margin: auto;
+  text-align: left;
+}
+
+.wrapper{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.skill-title{
+  font-weight: bold;
+  font-size: 16px;
+  width: 100px;
+}
+
+.skill-item{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+#courses{
+  background-image: linear-gradient(to top, #1d0946, #4c1c6e, #812f96, #bb42bb, #fa54de);
+  height: 125vh
+}
+
+.curses .wrapper{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.course-content{
+  font-size: 14px;
+  text-align: justify;
+}
+
+.course-content a{
+  color: #efb6b6;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.course-content:hover{
+  width: 105%;
+  background-color: #df43b0fa;
+  box-shadow: 10px 10px 32px 0px rgba(0, 0, 0, 0.49);
+  z-index: 10;
+  padding: 8px;
+}
