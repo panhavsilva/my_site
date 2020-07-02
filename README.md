@@ -1,5 +1,6 @@
 # To Learn (); - First Project
 > Project developed during a mentoring group call with Letícia Cavalcanti.
+
 [![NPM Version][npm-image]][npm-url]
 
 Mentored by Letícia, I developed a responsive web page with the intention of being a portfolio. Fully made with pure HTML and CSS.
@@ -17,8 +18,10 @@ To visit the site, [click here!](https://pamelavieiradasilva.000webhostapp.com/)
 
 ## Usage example
 
-![](../images/web.gif)
-![](../images/mobile.gif)
+ <h3>Web</h3>
+ <img src="./images/web.gif"/>
+  <h3>Mobile</h3>
+ <img src="./images/mobile.gif"/>
 
 ## Meta
 
@@ -28,7 +31,7 @@ Pâmela Vieira – panhavsilva@gmail.com
 
 ## Contributing
 
-1. Fork it (<https://github.com/panhavsilva/my_site/fork>)
+1. ![Fork it](<https://github.com/panhavsilva/my_site/fork>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
