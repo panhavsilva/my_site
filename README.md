@@ -7,14 +7,12 @@ Mentored by Letícia, I developed a responsive web page with the intention of be
 
 The page starts with a presentation of the person and his contacts, has a skill bar in the study area and finally a summary of courses taken or in progress.
 
-To access the site, click here!
 
 <img src="./images/header.png"/>
 
 ## To access
 
-To visit the site,<a href="https://pamelavieiradasilva.000webhostapp.com"> click here!</a>
-
+To visit the site, [click here!](https://pamelavieiradasilva.000webhostapp.com)
 
 
 ## Usage example
