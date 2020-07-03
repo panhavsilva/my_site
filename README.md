@@ -9,7 +9,7 @@ The page starts with a presentation of the person and his contacts, has a skill 
 
 To access the site, click here!
 
-![](../images/header.png)
+<img src="./images/header.png"/>
 
 ## To access
 
@@ -31,7 +31,7 @@ Pâmela Vieira – panhavsilva@gmail.com
 
 ## Contributing
 
-1. ![Fork it](<https://github.com/panhavsilva/my_site/fork>)
+1. [Fork it](<https://github.com/panhavsilva/my_site/fork>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
